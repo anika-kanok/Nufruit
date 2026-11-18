@@ -50,7 +50,7 @@ body{
 
 .banner-image{
     position: absolute;
-    width: 50dvw;
+    width: 50vw;
     right: 0;
     top: 0;
     z-index: -155;
@@ -321,7 +321,7 @@ button {
     }
 
     .banner-section{
-        padding: 60px 16px;
+        padding: 40px 20px;
         right: 115px;
         position: relative;
 
@@ -346,11 +346,13 @@ button {
 
     }
 
-    .track-section{
+     .track-section{
+        margin: 0;
+        padding: 0;
         .bg-track{
             left: 0;
             top:0;
-            width: 100%;
+            width: 80%;
         }
         .left-section{
             & h2{
@@ -386,7 +388,43 @@ button {
                 }
             }
         }
+    } 
+
+    .target-section{
+        & .details-section{
+            padding: 0;
+            & h2{
+                font-size: 1.80rem;
+                text-align: center;
+                padding: 0;
+            }
+
+            & .details{
+                  font-size: 1rem;
+                  padding: 0;
+                  text-align: center ;
+            }
+
+            & .store-design{
+                padding: 0.5rem 1rem;
+                justify-self: center;
+                & P{
+                    font-size: 0.60rem;
+                }
+
+                & h3{
+                    font-size: 0.80rem;
+                }
+
+                & img{
+                    width: 16px;
+                    
+                }
+                
+            }
+        }
     }
+
 
     .company{
         margin-top: 50px;
