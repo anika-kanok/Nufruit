@@ -189,8 +189,7 @@ button {
             display: flex;
             align-items: start;
             gap:30px;
-            margin-top:60px;
-
+            margin-top: 30px;
             & div{
                 padding-top:20px;
 
@@ -460,6 +459,105 @@ button {
 
     & img{
         width: 100%;
+    }
+
+
+    /* track section start  */
+
+    .track-section{
+        margin: 2rem 0rem;
+        & .container{
+           & .left-section{
+            & h2{
+                font-size: 2rem;
+            }
+
+            & .image-grid{
+                display: flex;
+                flex-direction: row;
+                gap:0.50rem;
+                padding-top: 1rem;
+                
+            }
+            }
+
+        }
+
+
+        & .right-section{
+
+            & h3{
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            & .details-div{
+                margin: 0;
+                gap: 1rem;
+                & img{
+                  max-width:80px;
+                  min-height: 80px;
+                  width: 100%;
+                  margin-bottom: 2rem;
+
+              }
+               
+              & div{
+                  padding: 0;
+                  & h2{
+                      font-size: 1rem;
+                  }
+  
+                  & p{  
+                      padding: 0;
+                      font-size: 0.90rem;
+                     
+                  }
+               }
+            }
+
+        }
+    }
+
+    /* company section start here */
+    .company{
+        margin: 2rem 2rem;
+    }
+
+    /* footer section start here */
+
+    .join{
+        padding: 4rem 0rem;
+        & .details{
+            & h2{
+                font-size: 1rem;
+            }
+
+             & .store-design{
+                padding: 0.5rem 1rem;
+                justify-self: center;
+                & P{
+                    font-size: 0.60rem;
+                }
+
+                & h3{
+                    font-size: 0.80rem;
+                }
+
+                & img{
+                    width: 16px;
+                    
+                }
+                
+            } 
+        }
+    }
+
+
+    /* COPY RIGHT SECTION */
+
+    .copyright{
+        font-size: 1rem;
     }
 
 }
